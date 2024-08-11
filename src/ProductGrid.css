@@ -1,0 +1,32 @@
+
+
+   .product-grid-container {
+    flex-grow: 1;
+    padding: 0 2rem;
+  }
+  
+  .product-grid-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    margin-bottom: 1.7rem;
+  }
+  
+  .sort-dropdown {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-icon {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 2rem; 
+  }
+  
